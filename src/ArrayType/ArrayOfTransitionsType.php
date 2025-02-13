@@ -43,6 +43,15 @@ class ArrayOfTransitionsType extends ArrayType
     public $RecurringDateTransition = array();
 
     /**
+     * A time zone transition that occurs on the same day each year.
+     *
+     * @since Exchange 2010
+     *
+     * @var \jamesiarmes\PhpEws\Type\RecurringDayTransitionType[]
+     */
+    public $RecurringDayTransition = array();
+
+    /**
      * A time zone transition.
      *
      * @since Exchange 2010
